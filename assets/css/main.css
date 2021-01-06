@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+    background-color: #222222;
+}
+
+#ititlehead, .cnavli, .ch1header, .cpsection, #ipfoot, #iafoot{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+
+header#iheader{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    background-color: #224422;
+    top: 0px;
+    
+  
+   height: 170px;
+   width: 100%;
+  
+}
+
+h1#ititlehead{
+ 
+   text-align: center;
+    font-size:40px;
+    color: rgb(204, 255, 204);
+}
+
+img{
+    position: absolute;
+   top: 30px;
+    left:0px;
+    width: 100px;
+}
+
+nav{
+   
+}
+ul{
+    margin-top: 0px;
+    position: absolute;
+    right: 0px;
+    top:0px;
+   
+}
+li{
+
+    
+    
+    list-style: none;
+   
+    height: 35px;
+   
+    
+   
+}
+
+a.cnavli:hover{
+    background-color: rgba(91, 214, 91, 0.5);
+}
+a.cnavli {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+   display: block;
+   background-color: rgba(91, 214, 91, 0.2);
+    
+    color: #CCCCFF;
+    
+    text-decoration: none;
+   
+    font-size:18px;
+}
+
+main{
+   position: absolute;
+   top: 170px; 
+    
+}
+
+h1.ch1header {
+    font-size: xx-large;
+    color: #CCFFCC;
+}
+h2{
+    color: rgb(204, 255, 204);
+}
+header.cheaderart{
+    text-align: left;
+}
+
+p.cpsection, p#ipfoot{
+    color: #FFFFFF;
+
+}
+p.cpsection{
+   
+    
+    font-size: large;
+}
+
+
+footer#ifoot{
+    position: absolute;
+    bottom: 0px;
+    
+   width: 100%;
+}
+p#ipfoot{
+    
+     text-align: center;
+}
+a#iafoot{
+    color: #CCCCFF;
+}
